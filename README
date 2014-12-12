@@ -1,0 +1,9 @@
+Commands for pushing to git
+===========================
+curl -u 'anto-daniel' https://api.github.com/user/repos -d '{"name":"puppet-practise"}'
+git add .
+git checkout 
+git commit -m "first commit for this repo"
+git log
+git remote add origin https://github.com/anto-daniel/puppet-practise.git
+git push -u origin master
